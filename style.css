@@ -1,0 +1,272 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contents1_bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+:root {
+    --h-text-size: 48px;
+    --contents-text-size: 20px;
+    --accent-text-size: 24px;
+    --text-color: #F8F1FF;
+    --headerbackground-color: #a094b7;
+    --background-color: #bbb5c3;
+    --accent-color: #F8F1FF;
+}
+
+.intro_bg {
+    background-image: url("intro.png");
+    width: 100%;
+    height: 718px;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
+}
+
+.searchArea {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.searchArea input {
+    border: none;
+    width: 250px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding-left: 10px;
+}
+.searchArea span {
+    width: 50px; 
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+
+}
+
+.nav li {
+    margin-left: 84px;
+    height: 29px;
+}
+
+.nav li a {
+    color: #fff;
+    font-weight: border;
+    font-size: var(--accent-text-size);
+}
+
+.intro_text {
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+
+.intro_text h1, h4{
+    color: #fff;
+}
+
+.intro_text h1 {
+    font-size: var(--h-text-size);
+    font-weight: 100;
+}
+
+.intro_text h4 {
+    font-size: var(--contents-text-size);
+    font-weight: lighter;
+}
+/* intro end */
+.amount {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background: #fff;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount li {
+    flex: 1;
+    height: 132px;
+}
+
+.amount li:not(:last-child) > div{
+    border-right: 1px solid #E1E1E1;
+}
+.amount li > div{
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+}
+
+#count {
+    font-size: var(--contents-text-size);
+}
+#num1 {
+    font-size: var(--accent-text-size);
+}
+/* amount end */
+
+.main_text0 {
+    width: 100%; 
+    height: 651px;
+    margin-top: -132px;
+    background: #f1f2f3;
+}
+
+.main_text0 h2 {
+    padding-top: 116px;
+    text-align: center;
+    font-size: var(--h-text-size);
+}
+.sub_text0 {
+    text-align: center;
+    font-size: var(--contents-text-size);
+}
+
+.icons {
+    display: flex;
+    width: 1280px; 
+    height: 302px;
+    /* background: #f1f2f3; */
+    margin: auto;
+    margin-top: 35px;
+}
+
+.icons li {
+    flex: 1;
+    background: #fff;
+    margin-top: 49px;
+    height: 302px;
+    text-align: center;
+}
+
+.icons > li > .icon_img {
+    margin-top: 18px;
+}
+
+.icons > li > .sub_text1 {
+    font-size: 14px;
+    width: 280px;
+    margin: auto;
+    letter-spacing: -1px;
+}
+
+.icons > li:not(:last-child){
+    margin-right: 20px;
+}
+.more{
+    width: 100px;
+    height: 30px;
+    background: #2F7AF4;
+    color: #fff;
+    margin: 25px auto;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/* main text0 end */
+/* main text1 */
+
+.main_text1 {
+    width: 100%;
+    height: 659px;
+
+}
+
+.main_text1 h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.service {
+    width: 1280px;
+    height: 427px;
+    display: flex;
+    margin: 49px auto;
+}
+
+.service .food_content {
+    padding: 20px; 
+    font-size: 18px;
+}
+
+.service .food_content h3 {
+    margin-bottom: 27px;
+    font-size: 24px;
+}
+
+/* main text2 */
+.main_text2 {
+    width: 100%;
+    height: 418px;
+    background-image: url("intro2.png");
+    background-size: cover;
+}
+
+.main_text2 ul {
+    display: flex;
+    padding-top: 138px;
+
+}
+
+.main_text2 ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.main_text2 ul li h2, .main_text2 ul li div {
+    color: #fff;
+}
+.more2 {
+    width: 220px; 
+    height: 40px;
+    line-height: 40px;
+    margin: 16px  auto;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background: #1f1f1f;
+    padding: 30px;
+}
+
+footer > div:first-child {
+    flex: 9;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+footer > div:last-child {
+    flex: 9;
+    color: #fff;
+    font-size: 20px;
+}
